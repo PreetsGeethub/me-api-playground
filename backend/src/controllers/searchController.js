@@ -13,7 +13,8 @@ exports.globalSearch = async (req, res) => {
         p.id,
         p.title,
         p.description,
-        p.links,
+        p.repo_url,
+        p.live_url,
         ARRAY_AGG(s.name) AS skills
       FROM projects p
       LEFT JOIN project_skills ps ON p.id = ps.project_id
@@ -26,10 +27,10 @@ exports.globalSearch = async (req, res) => {
     `;
 
     const result = await pool.query(query, [`%${q}%`]);
-
     res.json(result.rows);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Search failed" });
+    res.status(500).json({ error: "Search  failed" });
   }
 };
+ 

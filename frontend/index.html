@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile API Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Profile API Playground</h1>
+    <p>Minimal UI to demonstrate backend APIs</p>
+  </header>
+
+  <main>
+    <!-- PROFILE -->
+    <section>
+      <h2>Profile</h2>
+      <div id="profile" class="card">Loading...</div>
+    </section>
+    <h2>Search (Projects & Skills)</h2>
+    <div class="search-box">
+      <input id="searchInput" placeholder="Search keyword..." />
+      <button onclick="searchAll()">Search</button>
+    </div>
+    <div id="searchSection" style="display:none;">
+      <h3>Project Results</h3>
+      <div id="searchProjects" class="card"></div>
+    
+      <h3>Skill Results</h3>
+      <div id="searchSkills" class="card"></div>
+    </div>
+    
+    <!-- PROJECTS -->
+    <section>
+      <h2>Projects</h2>
+      <div id="projects" class="card">Loading...</div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <h2>Skills</h2>
+      <div id="skills" class="card">Loading...</div>
+    </section>
+
+    <!-- SEARCH -->
+    <section>
+      
+
+      
+
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>Backend Internship Assignment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
