@@ -11,7 +11,7 @@
       "name": "profile",
       "item": [
         {
-          "name": "New Request",
+          "name": "Get Profile",
           "request": {
             "method": "GET",
             "header": []
@@ -24,7 +24,7 @@
       "name": "projects",
       "item": [
         {
-          "name": "New Request",
+          "name": "Get All Projects",
           "request": {
             "method": "GET",
             "header": []
@@ -37,7 +37,7 @@
       "name": "skills",
       "item": [
         {
-          "name": "top",
+          "name": "Get Top Skills",
           "request": {
             "method": "GET",
             "header": []
@@ -45,7 +45,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get All Skills",
           "request": {
             "method": "GET",
             "header": []
@@ -55,10 +55,10 @@
       ]
     },
     {
-      "name": "search projects by skill",
+      "name": "search projects",
       "item": [
         {
-          "name": "New Request",
+          "name": "search projects by skill",
           "request": {
             "method": "GET",
             "header": []
@@ -71,7 +71,7 @@
       "name": "global search",
       "item": [
         {
-          "name": "New Request",
+          "name": "search globally",
           "request": {
             "method": "GET",
             "header": []
@@ -81,7 +81,15 @@
       ]
     },
     {
-      "name": "New Request",
+      "name": "index",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "health",
       "request": {
         "method": "GET",
         "header": []
