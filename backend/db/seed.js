@@ -38,7 +38,7 @@ async function seed() {
       [
         "Pritam Kumar",
         "kumarpreetjangir@gmail.com",
-       "MCA (2024–2026, Expected) — University of Rajasthan\nB.Sc Mathematics (2020–2023) — MGSU University, Bikaner",
+       "MCA (2024–2026, Expected) - University of Rajasthan\nB.Sc Mathematics (2020–2023) - MGSU University, Bikaner",
         "https://github.com/PreetsGeethub",
         "https://www.linkedin.com/in/pritam-kumar-b7112527b/"
       ]

@@ -1,7 +1,5 @@
-const API_BASE = "http://localhost:3000"; 
-// change to deployed URL later
+const API_BASE = "https://me-api-playground-lj79.onrender.com";
 
-/* ---------------- PROFILE ---------------- */
 async function loadProfile() {
   const res = await fetch(`${API_BASE}/profile`);
   const data = await res.json();
